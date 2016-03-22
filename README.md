@@ -12,9 +12,10 @@ Steps
 - Create virtual environment 
 ```
 pip install virtualenv #install virtualenv feature
-virtualenv pigui-virtenv # creating virutal environmnet for pigui
-source venv/bin/activate # activate virtualenv
-pip install -r requirements.txt # install all packages from requirements file
+
+virtualenv pigui-virtenv # creating virutal environmnet for pigui (keep it outside pigui project)
+source pigui-virtenv/bin/activate # activate virtualenv
+pip install -r $PIGUI_SRC/requirements.txt # install all packages from requirements file
 
 ```
 
