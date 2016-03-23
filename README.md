@@ -1,14 +1,13 @@
 # Welcome in PigUI
 Design your HTTP requests as web forms
 
-## Get started
-
 ## Prerequisites
 - Python is installed on machine.
 - [Pip](https://pip.pypa.io/en/stable/) is installed and working.
 - Pycharm is up and running.
+- [Flask](http://flask.pocoo.org/)
 
-## Steps
+## Create virtualenv and import project dependencies
 - Create virtual environment 
 
 ```
